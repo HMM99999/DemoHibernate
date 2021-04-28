@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="example">
+    <class name="org.example.Student" table="student" dynamic-update="true">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="name"/>
+        <property name="age"/>
+        <one-to-one name="stuIdCard" class="org.example.StuIdCard" property-ref="student"/>
+    </class>
+    <class name="org.example.StuIdCard" dynamic-update="true">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="num"/>
+        <!--unique 设置唯一-->
+        <many-to-one name="student" column="studentId" unique="true"/>
+    </class>
+</hibernate-mapping>

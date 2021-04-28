@@ -13,7 +13,9 @@ import org.junit.Test;
 
 import javax.security.auth.login.AppConfigurationEntry;
 import javax.security.auth.login.Configuration;
+import java.lang.reflect.Field;
 import java.util.Date;
+import java.util.LinkedList;
 
 public class App {
 
@@ -285,6 +287,8 @@ public class App {
     public void testSchemaExport() {
 //        new SchemaExport(new Configuration().configure()).create(true, true);
     }
+
+
 }
 
 

@@ -13,6 +13,8 @@
         <module>h_002_OR_Mapping_Simulation</module>
         <module>h_003_BasicConfiguration</module>
         <module>h_004_CoreAPI</module>
+        <module>h_005_one2one_uni_fk</module>
+        <module>h_006_one2one_bi_fk</module>
     </modules>
 
     <properties>

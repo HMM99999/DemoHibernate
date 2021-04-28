@@ -10,6 +10,15 @@ public class Teacher {
     private String name;
     private String title;
     private Date date;
+    private Date dateTime;
+
+    public Date getDateTime() {
+        return dateTime;
+    }
+
+    public void setDateTime(Date dateTime) {
+        this.dateTime = dateTime;
+    }
 
     public Teacher() {
     }
