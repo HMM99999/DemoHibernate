@@ -16,6 +16,9 @@
         <module>h_005_one2one_uni_fk</module>
         <module>h_006_one2one_bi_fk</module>
         <module>h_007_one2one_uni_pk</module>
+        <module>h_008_one2one_bi_pk</module>
+        <module>h_009_one2one_uni_fk_composite</module>
+        <module>h_010_component</module>
     </modules>
 
     <properties>

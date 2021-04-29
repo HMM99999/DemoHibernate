@@ -9,7 +9,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class App {
+public class App001 {
     private static SessionFactory SESSION_FACTORY = null;
 
     @BeforeClass
@@ -20,12 +20,12 @@ public class App {
 
     @AfterClass
     public static void afterClass() {
-        App.SESSION_FACTORY.close();
+        App001.SESSION_FACTORY.close();
     }
 
     @Test
     public void test01() {
-        Session session = App.SESSION_FACTORY.openSession();
+        Session session = App001.SESSION_FACTORY.openSession();
         session.beginTransaction();
         Student s = new Student("student1", 12);
         session.save(s);
@@ -35,7 +35,7 @@ public class App {
 
     @Test
     public void test02() {
-        Session session = App.SESSION_FACTORY.openSession();
+        Session session = App001.SESSION_FACTORY.openSession();
         session.beginTransaction();
 
         Teacher teacher = new Teacher("name", "title");

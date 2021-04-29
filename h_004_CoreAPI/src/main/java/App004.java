@@ -6,18 +6,13 @@ import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.query.Query;
-import org.hibernate.tool.hbm2ddl.SchemaExport;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import javax.security.auth.login.AppConfigurationEntry;
-import javax.security.auth.login.Configuration;
-import java.lang.reflect.Field;
 import java.util.Date;
-import java.util.LinkedList;
 
-public class App {
+public class App004 {
 
     private static SessionFactory sf = null;
 
@@ -29,7 +24,7 @@ public class App {
 
     @AfterClass
     public static void afterClass(){
-        App.sf.close();
+        App004.sf.close();
     }
 
     /**

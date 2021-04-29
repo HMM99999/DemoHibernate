@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import java.util.EnumSet;
 
-public class App {
+public class App007 {
 
     @Test
     public void test01() {
@@ -17,4 +17,5 @@ public class App {
         SchemaExport export = new SchemaExport();
         export.create(EnumSet.of(TargetType.DATABASE), metadata);
     }
+
 }

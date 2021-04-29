@@ -22,6 +22,8 @@ drop table wife;
 select * from teacher for update ;
 
 
+select * from husband;
+select * from wife;
 select * from student;
 select * from stuidcard;
 

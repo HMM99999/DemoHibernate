@@ -12,7 +12,7 @@ import org.junit.Test;
 
 import java.util.Date;
 
-public class App {
+public class App003 {
 
     private static SessionFactory SESSION_FACTORY = null;
 
@@ -24,12 +24,12 @@ public class App {
 
     @AfterClass
     public static void afterClass(){
-        App.SESSION_FACTORY.close();
+        App003.SESSION_FACTORY.close();
     }
 
     @Test
     public void test01() {
-        Session session = App.SESSION_FACTORY.openSession();
+        Session session = App003.SESSION_FACTORY.openSession();
         session.beginTransaction();
         Student s = new Student("student1", 12);
         session.save(s);
@@ -39,7 +39,7 @@ public class App {
 
     @Test
     public void test02() {
-        Session session = App.SESSION_FACTORY.openSession();
+        Session session = App003.SESSION_FACTORY.openSession();
         session.beginTransaction();
 
         Teacher teacher = new Teacher("t1", "tt", new Date(), TeacherType.A);

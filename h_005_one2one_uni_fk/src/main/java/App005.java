@@ -14,7 +14,7 @@ import org.junit.Test;
 
 import java.util.EnumSet;
 
-public class App {
+public class App005 {
 
 //    private static SessionFactory sf = null;
 //

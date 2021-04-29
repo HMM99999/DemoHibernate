@@ -18,10 +18,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="h_001_HelloWorld" />
         <module name="h_003_BasicConfiguration" />
+        <module name="h_010_component" />
+        <module name="h_008_one2one_bi_pk" />
         <module name="h_006_one2one_bi_fk" />
         <module name="h_005_one2one_uni_fk" />
         <module name="h_007_one2one_uni_pk" />
         <module name="h_004_CoreAPI" />
+        <module name="h_009_one2one_uni_fk_composite" />
         <module name="h_002_OR_Mapping_Simulation" />
       </profile>
     </annotationProcessing>
