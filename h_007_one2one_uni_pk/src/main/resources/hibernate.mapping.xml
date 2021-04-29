@@ -13,7 +13,9 @@
     </class>
     <class name="org.example.StuIdCard" dynamic-update="true">
         <id name="id">
-            <generator class="native"/>
+            <generator class="native">
+                <param name="property">student</param>
+            </generator>
         </id>
         <property name="num"/>
         <one-to-one name="student" constrained="true"/>
