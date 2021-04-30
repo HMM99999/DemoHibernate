@@ -18,6 +18,8 @@ drop table stuidcard;
 drop table student;
 drop table husband;
 drop table wife;
+drop table t_user;
+drop table t_group;
 
 select * from teacher for update ;
 
@@ -27,3 +29,5 @@ select * from wife;
 select * from student;
 select * from stuidcard;
 
+select * from t_group;
+select * from t_user;

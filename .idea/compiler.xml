@@ -16,7 +16,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="h_012_one2many_uni" />
         <module name="h_001_HelloWorld" />
+        <module name="h_011_many2one_uni" />
         <module name="h_003_BasicConfiguration" />
         <module name="h_010_component" />
         <module name="h_008_one2one_bi_pk" />
