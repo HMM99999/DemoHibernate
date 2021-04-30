@@ -20,6 +20,9 @@ drop table husband;
 drop table wife;
 drop table t_user;
 drop table t_group;
+drop table t_s;
+drop table t_student;
+drop table t_teacher;
 
 select * from teacher for update ;
 
