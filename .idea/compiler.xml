@@ -35,7 +35,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="h_015_many2many_bi" target="8" />
       <module name="untitled" target="8" />
     </bytecodeTargetLevel>
   </component>

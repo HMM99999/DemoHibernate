@@ -10,4 +10,5 @@ SELECT concat('DROP TABLE IF EXISTS ', table_name, ';') FROM information_schema.
 
 show tables;
 
-select * from t_student
+select * from t_user;
+select * from t_group;
