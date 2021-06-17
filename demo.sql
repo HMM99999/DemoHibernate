@@ -1,9 +1,7 @@
 show databases ;
 
-create database hibernate;
-
 drop database hibernate;
-
+create database hibernate;
 use hibernate;
 
 show tables;

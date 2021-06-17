@@ -31,7 +31,12 @@
         <module name="h_014_many2many_uni" />
         <module name="h_007_one2one_uni_pk" />
         <module name="h_004_CoreAPI" />
+        <module name="h_016_one2many_many2one_bi_crud" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="h_015_many2many_bi" target="8" />
+      <module name="untitled" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
