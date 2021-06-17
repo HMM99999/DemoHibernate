@@ -23,6 +23,7 @@
         <module>h_012_one2many_uni</module>
         <module>h_013_one2many_many2one_bi</module>
         <module>h_014_many2many_uni</module>
+        <module>h_015_many2many_bi</module>
     </modules>
 
     <properties>

@@ -20,6 +20,7 @@
         <module name="h_001_HelloWorld" />
         <module name="h_011_many2one_uni" />
         <module name="h_010_component" />
+        <module name="h_015_many2many_bi" />
         <module name="h_006_one2one_bi_fk" />
         <module name="h_005_one2one_uni_fk" />
         <module name="h_009_one2one_uni_fk_composite" />
