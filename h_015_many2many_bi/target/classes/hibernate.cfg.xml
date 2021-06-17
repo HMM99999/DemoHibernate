@@ -26,6 +26,8 @@
         <!-- Drop and re-create the database schema on startup -->
         <property name="hbm2ddl.auto">update</property>
 
+        <mapping class="org.example.Teacher"/>
+        <mapping class="org.example.Student"/>
 <!--        <mapping resource="hibernate.mapping.xml"/>-->
     </session-factory>
 </hibernate-configuration>
