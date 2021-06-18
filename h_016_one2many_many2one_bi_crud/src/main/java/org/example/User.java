@@ -9,6 +9,9 @@ public class User {
     private String name;
     private Group group;
 
+    public User() {
+    }
+
     public User(String name, Group group) {
         this.name = name;
         this.group = group;

@@ -9,7 +9,10 @@ import java.util.Set;
 public class Group {
     private int id;
     private String name;
-    private Set<User> users = new HashSet<User>();
+    private Set<User> users = new HashSet<>();
+
+    public Group() {
+    }
 
     public Group(String name) {
         this.name = name;
