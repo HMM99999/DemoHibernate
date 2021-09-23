@@ -1,4 +1,4 @@
-show databases ;
+show databases;
 
 drop database hibernate;
 create database hibernate;
